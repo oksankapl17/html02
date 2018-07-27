@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="https://formspree.io/oksankapl17@gmail.com">
+   
+   <label for="client-name">Client name:</label>
+    <input type="text" name="client-name" id="client-name" required>
+    <br>
+    <label>
+    Client email: <input type="email" name="client-email"  required>
+    </label>
+    
+    <br>
+ <label>Gender:</label>
+ <lable>
+  <input type="radio" name="client-gender" value="male"> Male
+    </lable>
+    <lable>
+  <input type="radio" name="client-gender" value="female"> Female
+    </lable>
+    <lable>
+  <input type="radio" name="client-gender" value="other"> Other
+    </lable>
+    <br>
+    <lable>
+        Car plate number:<input type="text" name="car-plate" 
+        pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AB1234CD"
+        placeholder="AB1234CD">
+        
+    </lable>
+    <br>
+    <input type="submit">
+      <input type="reset">
+    </form>
+</body>
+</html>
